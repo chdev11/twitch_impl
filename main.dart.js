@@ -66558,7 +66558,7 @@ $1(a){var s=this.a.e,r=s.gkf()
 r.a.bH(r)
 if(s.b==null){s=window
 s.toString
-B.Ni.Bc(s,"https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=gvusou2mln2urv16odxzeg6zewpt1k&redirect_uri=http://localhost:8080&scope=viewing_activity_read","_self")}},
+B.Ni.Bc(s,"https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=gvusou2mln2urv16odxzeg6zewpt1k&redirect_uri=https://chdev11.github.io/twitch_impl/&scope=viewing_activity_read","_self")}},
 $S:2}
 A.Y5.prototype={
 $1(a){var s,r,q,p,o,n,m,l,k,j=null,i=this.a,h=i.e,g=h.gw0()
