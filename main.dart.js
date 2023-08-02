@@ -92966,7 +92966,7 @@ asU(a,b){var s=0,r=A.y(t.Wy),q,p=this,o,n,m,l
 var $async$jL=A.z(function(c,d){if(c===1)return A.v(d,r)
 while(true)switch(s){case 0:m=t.Z7
 s=3
-return A.n(p.a.a0m(0,"http://45.15.24.18:8033/auth/login",A.al(["authorization","Bearer "+A.h(new A.HG(B.X,B.lV,m.i("@<f4.S>").V(m.i("f4.T")).i("HG<1,2,i>")).gmT().dk(a+":"+b))],t.N,t.z)),$async$jL)
+return A.n(p.a.a0m(0,"https://45.15.24.18:8080/auth/login",A.al(["authorization","Bearer "+A.h(new A.HG(B.X,B.lV,m.i("@<f4.S>").V(m.i("f4.T")).i("HG<1,2,i>")).gmT().dk(a+":"+b))],t.N,t.z)),$async$jL)
 case 3:l=d
 if(J.h9(l)===200)try{m=A.U9(J.aD(J.f0(l),"data"))
 q=m
@@ -92980,7 +92980,7 @@ lY(a,b,c,d,e){return this.avl(0,b,c,d,e)},
 avl(a,b,c,d,e){var s=0,r=A.y(t.Wy),q,p=this,o,n,m,l
 var $async$lY=A.z(function(f,g){if(f===1)return A.v(g,r)
 while(true)switch(s){case 0:s=3
-return A.n(p.a.t1("http://45.15.24.18:8033/user/",A.al(["name",b,"last_name",c,"email",d,"password",e],t.N,t.z)),$async$lY)
+return A.n(p.a.t1("https://45.15.24.18:8080/user/",A.al(["name",b,"last_name",c,"email",d,"password",e],t.N,t.z)),$async$lY)
 case 3:l=g
 if(J.h9(l)===200)try{n=A.U9(J.aD(J.f0(l),"data"))
 q=n
@@ -93109,7 +93109,7 @@ ln(a){return this.an4(a)},
 an4(a){var s=0,r=A.y(t.f),q,p=this,o,n,m,l
 var $async$ln=A.z(function(b,c){if(b===1)return A.v(c,r)
 while(true)switch(s){case 0:s=3
-return A.n(p.a.t1("http://45.15.24.18:8033/buy/",A.al(["items",J.d0(a,new A.ae2(),t.f).bQ(0)],t.N,t.z)),$async$ln)
+return A.n(p.a.t1("https://45.15.24.18:8080/buy/",A.al(["items",J.d0(a,new A.ae2(),t.f).bQ(0)],t.N,t.z)),$async$ln)
 case 3:l=c
 if(J.h9(l)===200)try{n=J.aD(J.f0(l),"data")
 q=n
@@ -93122,7 +93122,7 @@ return A.x($async$ln,r)},
 ly(){var s=0,r=A.y(t.bM),q,p=this,o,n,m,l
 var $async$ly=A.z(function(a,b){if(a===1)return A.v(b,r)
 while(true)switch(s){case 0:s=3
-return A.n(p.a.xz(0,"http://45.15.24.18:8033/buy/shop_items"),$async$ly)
+return A.n(p.a.xz(0,"https://45.15.24.18:8080/buy/shop_items"),$async$ly)
 case 3:l=b
 if(J.h9(l)===200)try{n=J.d0(t.j.a(J.aD(J.f0(l),"data")),new A.ae4(),t.ao).bQ(0)
 q=n
@@ -93135,7 +93135,7 @@ return A.x($async$ly,r)},
 lx(){var s=0,r=A.y(t.aD),q,p=this,o,n,m,l
 var $async$lx=A.z(function(a,b){if(a===1)return A.v(b,r)
 while(true)switch(s){case 0:s=3
-return A.n(p.a.xz(0,"http://45.15.24.18:8033/buy/inventory"),$async$lx)
+return A.n(p.a.xz(0,"https://45.15.24.18:8080/buy/inventory"),$async$lx)
 case 3:l=b
 if(J.h9(l)===200)try{n=J.d0(t.j.a(J.aD(J.f0(l),"data")),new A.ae3(),t.bG).bQ(0)
 q=n
@@ -93148,7 +93148,7 @@ return A.x($async$lx,r)},
 lA(){var s=0,r=A.y(t.le),q,p=this,o,n,m,l
 var $async$lA=A.z(function(a,b){if(a===1)return A.v(b,r)
 while(true)switch(s){case 0:s=3
-return A.n(p.a.xz(0,"http://45.15.24.18:8033/buy/transactions"),$async$lA)
+return A.n(p.a.xz(0,"https://45.15.24.18:8080/buy/transactions"),$async$lA)
 case 3:l=b
 if(J.h9(l)===200)try{n=J.d0(t.j.a(J.aD(J.f0(l),"data")),new A.ae5(),t.P).bQ(0)
 q=n
@@ -94125,7 +94125,7 @@ m4(a){return this.awV(a)},
 awV(a){var s=0,r=A.y(t.f),q,p=this,o,n,m,l
 var $async$m4=A.z(function(b,c){if(b===1)return A.v(c,r)
 while(true)switch(s){case 0:s=3
-return A.n(p.a.t1("http://45.15.24.18:8033/twitch/token/sync",A.al(["token",a],t.N,t.z)),$async$m4)
+return A.n(p.a.t1("https://45.15.24.18:8080/twitch/token/sync",A.al(["token",a],t.N,t.z)),$async$m4)
 case 3:l=c
 if(J.h9(l)===200)try{n=J.aD(J.f0(l),"data")
 q=n
@@ -94139,7 +94139,7 @@ return A.x($async$m4,r)},
 fF(){var s=0,r=A.y(t.Wy),q,p=this,o,n,m,l
 var $async$fF=A.z(function(a,b){if(a===1)return A.v(b,r)
 while(true)switch(s){case 0:s=3
-return A.n(p.a.xz(0,"http://45.15.24.18:8033/auth/refresh_token"),$async$fF)
+return A.n(p.a.xz(0,"https://45.15.24.18:8080/auth/refresh_token"),$async$fF)
 case 3:l=b
 if(J.h9(l)===200)try{n=A.U9(J.aD(J.f0(l),"data"))
 q=n
@@ -94155,7 +94155,7 @@ apP(a,b){var s=0,r=A.y(t.sx),q,p=this,o,n,m,l
 var $async$kq=A.z(function(c,d){if(c===1)return A.v(d,r)
 while(true)switch(s){case 0:m=b!=null?A.al(["id",b],t.N,t.z):null
 s=3
-return A.n(p.a.DF(0,"http://45.15.24.18:8033/twitch/users",m),$async$kq)
+return A.n(p.a.DF(0,"https://45.15.24.18:8080/twitch/users",m),$async$kq)
 case 3:l=d
 if(J.h9(l)===200){J.aHv(l,B.al.mM(0,J.f0(l),null))
 try{m=J.d0(t.j.a(J.aD(J.f0(l),"data")),new A.aqA(),t.M3).bQ(0)
@@ -94176,7 +94176,7 @@ if(a0!=null)f.l(0,"to_id",a0)
 if(b!=null)f.l(0,"first",b)
 if(a!=null)f.l(0,"after",a)
 s=3
-return A.n(n.a.DF(0,"http://45.15.24.18:8033/twitch/users/follows",f),$async$kr)
+return A.n(n.a.DF(0,"https://45.15.24.18:8080/twitch/users/follows",f),$async$kr)
 case 3:m=a2
 s=J.h9(m)===200?4:6
 break
@@ -94233,7 +94233,7 @@ if(d!=null)l.l(0,"user_login",d)
 if(a!=null)l.l(0,"game_id",a)
 if(b!=null)l.l(0,"language",b)
 s=3
-return A.n(p.a.DF(0,"http://45.15.24.18:8033/twitch/streams",l),$async$lz)
+return A.n(p.a.DF(0,"https://45.15.24.18:8080/twitch/streams",l),$async$lz)
 case 3:o=f
 if(J.h9(o)===200){J.aHv(o,B.al.mM(0,J.f0(o),null))
 try{l=J.d0(t.j.a(J.aD(J.f0(o),"data")),new A.aqz(),t.kp).bQ(0)
